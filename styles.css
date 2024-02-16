@@ -1,0 +1,96 @@
+/* * {
+    font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif;
+} */
+
+header, main {
+    margin: 8.75%;
+}
+
+header {
+    background-image: url("resources/Banner_Image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #FFF;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 344px;
+    padding-right: 344px;
+}
+
+header > p {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+header > h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sixty-five {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.sixty-five > h1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.sixty-five > p {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sixty-five > h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.midnight {
+    background-image: url("resources/Vector.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-top: 75px;
+}
+
+.midnight h1 {
+    color: #FFF;
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.midnight p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.midnight button {
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.midnight button:hover {
+    background-color: #FFF;
+    color: black;
+}
