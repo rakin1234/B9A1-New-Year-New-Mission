@@ -94,3 +94,202 @@ header > h1 {
     background-color: #FFF;
     color: black;
 }
+
+.best-offer {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.best-offer h1 {
+    color: #F00;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-offer h2 {
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.best-offer p, .best-offer h4 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.best-offer-img > img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 50px;
+}
+
+.best-offer h3 {
+    color: #F00;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.best-gifts {
+    margin-top: 75px;
+}
+
+.best-gifts > h1 {
+    color: #F00;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-gifts > h2 {
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.best-gifts > p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gift-list img:hover {
+    opacity: 0.5;
+}
+
+.gift-list-one {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.gift-list-two {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.subscription {
+    margin-top: 75px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscription > h1 {
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscription > p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subscription-email {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    height: 25%;
+    width: 66%;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.subscription-email > button {
+    width: 210px;
+    height: 72px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    background: #070211;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.address-contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 8.75%;
+}
+
+.contact, .web {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact > img, .web > img {
+    width: 24px;
+    height: 24px;
+    padding-top: 30px;
+    padding-right: 8px;
+}
+
+.logo-icon {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+hr {
+    margin: 8.75%;
+}
+
+.copy-unsub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8.75%;
+}
+
+.copy-unsub > h1, .copy-unsub > p {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
