@@ -95,6 +95,39 @@ header > h1 {
     color: black;
 }
 
+.place {
+    background: linear-gradient(rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));
+    border: none;
+    border-radius: 16px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.place h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.place span {
+    color: #F00;
+}
+
+.place button {
+    background-color: #F00;
+    border: none;
+    border-radius: 6px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 16px 32px;
+}
+
 .best-offer {
     display: flex;
     gap: 24px;
@@ -134,6 +167,36 @@ header > h1 {
     font-family: "Inter", sans-serif;
     font-size: 48px;
     font-weight: 700;
+}
+
+.holidays {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.holidays h1 {
+    color: #070211;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holidays h2 {
+    color: #F00;
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holidays > h2 > span {
+    color: #070211;
+}
+
+.holidays p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .best-gifts {
